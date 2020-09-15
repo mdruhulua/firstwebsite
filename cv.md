@@ -6,5 +6,5 @@ permalink: /cv/
 
 You can find my curriculum vitae below.
 <ul>
-	<li><a href="Biplab_CV.pdf">CV</a></li>
+	<li><a href="Ruhul_CV.pdf">CV</a></li>
 </ul>
