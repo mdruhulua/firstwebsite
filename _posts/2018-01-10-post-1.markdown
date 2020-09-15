@@ -1,0 +1,82 @@
+---
+title: "Use of BiomaRt R package"
+author: "Biplab Paul"
+date: "02/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What is biomaRt?
+As the biological data is increasing, those data is deposited in various databases. In order to integrate different data types we need to access those data from databases by writing database quiry. biomaRt is a R package that provide essay access to various public database without writing complex SQL quiry. biomaRt access public databases through internet therefore your computer needs internet connection to use this package.
+
+## How to use of biomaRt package?
+
+load biomaRt package.
+```{r}
+library(biomaRt)
+```
+Let see what are the database available in biomaRt, you can use listMart() function to list database that are available.
+
+```{r}
+listMarts()
+```
+Now we would like to select a database for our analysis. Lets use useMart() function to connect with ensembl database.
+
+```{r}
+ensembl<- useMart("ensembl")
+```
+Now lets look at what are the datasets available in ensebl, we can use listDatasets() function to look at list of datasets available in ensembl. 
+
+```{r}
+datasets <- listDatasets(ensembl)
+head(datasets)
+dim(datasets)
+```
+There are around 202 datasets available in ensembl. Now we are going to use scerevisiae_gene_ensembl dataset because it is my favorite model organism. 
+
+```{r}
+ensembl <- useDataset("scerevisiae_gene_ensembl", mart = ensembl)
+```
+Now we can see what are the data available is for S cerevisiase, we can use listAttribute() function to get list of data that are available. 
+```{r}
+dim(listAttributes(ensembl))
+head(listAttributes(ensembl))
+```
+Now lets try to use biomaRt to do some real stuffs. 
+
+## How to get go term associated with a list of genes?
+
+Here we have a list of genes
+```{r}
+genelist <- c("ACT1", "MEX67", "GLE1", "DBP5", "SMC1", "SMC3", "NUP159", "ENP1", "CSL4")
+```
+Lets say we would like to get go term associated with these genes. We will use our ensembl object that created to quiry go term associated with these genes. To retrieve data from the database we will use getBM() function. getBM() function take three arguments first one is attribute which is the information that we would like to get for those genes. Let say we would to get go id and go name therefore we a vector of attribute that we would like to get. In this case attributes = c("external_gene_name", "go_id", "name_1006")
+Next argument is filter, which is the type of data that we would like to use to retrieve attributes. Since we are using gene name to retrieve attributes "external_gene_name" is our filter. 
+Third argument is values, which is the value of filter that is list of gene name in this case. Which is a vector called geneList. 
+
+Next is mart which is the name of database object we would like to use. 
+
+```{r}
+martdata <- getBM(attributes = c("external_gene_name", "go_id", "name_1006"),
+                  filters = "external_gene_name",
+                  values = genelist,
+                  mart = ensembl)
+head(martdata)
+```
+## How to get chromosome name, start and end co-ordinate of our genes of interest?
+We can again use getBM() function to retrieve co-ordinates of our geneList. In this case we simply change attributes of our previous previous command to things that we want, in this case chromosome name, gene name start position and end positions.
+```{r}
+geneCoordinate <- getBM(attributes = c("external_gene_name","chromosome_name",
+                                       "start_position", "end_position"), filters = "external_gene_name", values = genelist, mart = ensembl)
+geneCoordinate
+```
+## How to get sequences of our genes of interest?
+Now lets say we would to get sequences of all these genes, we can use getSequence() function to get sequence of all these transcripts. 
+
+```{r}
+seq <- getSequence(id=c("MEX67", "DBP5"), type = "external_gene_name", seqType = "transcript_exon_intron", mart = ensembl)
+seq
+```
