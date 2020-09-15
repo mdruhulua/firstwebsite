@@ -1,7 +1,7 @@
 # Site settings
-title: Biplab Paul
-general_email: paul202b@gmail.com
-academic_email: bpaul5@mgh.harvard.edu
+title: Md Ruhul Amin
+general_email: 0007amin@gmail.com
+academic_email: mdruhul@ualberta.ca
 
 description: > # this means to ignore newlines until "baseurl:"
   I am a scientist with a passion to serve developing nation in building their science capacity.
@@ -11,8 +11,8 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "https://biplabua.github.io" # the base hostname & protocol for your site
 
 # twitter_username: jekyllrb
-github_username: biplabua
-linkedin_username: biplab-paul-9365b8105
+github_username: mdruhulua
+linkedin_username: mdruhul-9365b8105
 # feel free to add other links here; you will have to add the SVG icon in _layouts/footer.html
 
 # Build settings
