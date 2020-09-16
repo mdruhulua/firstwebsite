@@ -67,27 +67,20 @@ My research interest have changed as I have gone through different stages of my 
 		Advances in Experimental Medicine and Biology, vol 1162. Springer, Cham. https://doi.org/10.1007/978-3-030-21737-2_8. (2019)<br>
 		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
-	<li>
-		<b>"Viscoelasticity in biological systems: a special focus on microbes"</b><br>
-		<i>S Bhat, D Jun, B Paul, T Dahms</i><br>
-		Viscoelasticity—From Theory to Biological Applications.: InTech, 123-156, 2012<br>
-		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
-	</li><br>
 </ul>
 
 <h2>Research Projects</h2>
 <ul>
 	<li>
-		<b>Role of β-galactofuranose and β-glucan in Aspergillus nidulans hyphal cell wall ultrastructure and physical properties</b><br>
-		University of Regina, Saskatchewan, Canada 2009-2013<br>
-		<i>Supervisor: Dr. Tanya E.S. Dahms</i><br>
-		<a href="https://ourspace.uregina.ca/handle/10294/3747"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<b>Effect of cannabinoids exposure (during gastrulation) on zebrafish development</b><br>
+		University of Alberta, Edmonton, Canada 2015-2020<br>
+		<i>Supervisor: Dr. Declan Ali</i><br>
+		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
-		<b>Nuclear accumulation of polyadenylated noncoding RNA leads to a breakdown in nuclear
-RNA homeostasis</b><br>
-		University of Alberta, 2013-2019<br>
-		<i>Dr. Ben Montpetit</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<b>study the osscilation of CO2 during photosynthesis and photorespiration</b><br>
+		University of lethbridge, 2010-2013<br>
+		<i>Dr. Marc Rousel</i><br>
+		<a href="http://people.uleth.ca/~roussel/"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 </ul>
