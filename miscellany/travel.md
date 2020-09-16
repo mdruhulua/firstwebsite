@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Photography and traveling
-permalink: /miscellany/Photography and traveling/
+title: travel
+permalink: /miscellany/travel/
 ---
 {% include image.html url="/images/p1.jpg" caption="Aurora borealis is caputred in outskirt of Edmonton in 2017" width=300 align="right" %}
 {% include image.html url="/images/p2.jpg" caption="Milky way captured from Snaring River Campground, Jasper, July 2020 " width=300 align="right" %}
