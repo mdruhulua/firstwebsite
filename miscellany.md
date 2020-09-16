@@ -5,5 +5,5 @@ permalink: /miscellany/
 ---
 
 <ul>
-	<li><a href="travel">Photography and Traveling</a> - Some activities outside of the lab.</li>
+	<li><a href="Photography and travel">Photography and Traveling</a> - Some activities outside of the lab.</li>
 </ul>
