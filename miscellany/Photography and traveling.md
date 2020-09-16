@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel
+title: Photography and traveling
 permalink: /miscellany/Photography and traveling/
 ---
 {% include image.html url="/images/p1.jpg" caption="Aurora borealis is caputred in outskirt of Edmonton in 2017" width=300 align="right" %}
