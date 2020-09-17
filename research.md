@@ -31,31 +31,31 @@ My research interest have changed as I have gone through different stages of my 
 		<b>"Design of an exposure chamber for the evaluation of personal samplers."</b><br>
 		<i>Md Ruhul Amin, H Izadi and B Quémerais.</i><br>
 		Journal of Physics: Conference Series 617 (2015).<br>
-		<a href="Paper3"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="Paper3.pdf"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>"Detailed characterization of welding fumes in personal exposure samples."</b><br>
 		<i>B Quémerais, James Mino, Md Ruhul Amin, H Golshahi and H Izadi.</i><br>
 		Journal of Physics: Conference Series 617 (2015).<br>
-		<a href="Paper6"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="Paper6.pdf"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>"Graph-Theoretic Analysis of a Model for the Coupling Between Photosynthesis and Photorespiration."</b><br>
 		<i>Md Ruhul Amin and Marc Roussel.</i><br>
 		Canadian Journal of Chemistry.92(2): 85-93.(2014).<br>
-		<a href="Paper7"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="Paper7.pdf"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>"Antibacterial, cytotoxic and neuropharmacological activities of Cerbera odollam seeds."</b><br>
 		<i>F Ahmed, Md Ruhul Amin, IZ Shahid, ME Sobhani.</i><br>
 		Oriental Pharmacy and Experimental Medicine (OPEM). 8 (4): 323-328.(2008).<br>
-		<a href="Paper8"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="Paper8.pdf"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>"Phytochemical, Antibactertial and Antinociceptive Studies of Hoya Parasitica."</b><br>
 		<i>M S H Reza, C. Mandal, K A Alam, A Salam, M A Rahman, Md Ruhul Amin, M N Huda, N C Ghosh, M R Ali, F Ahmed.</i><br>
 		Journal of Pharmacology and Toxicology. 2(8):753-756. (2007).<br>
-		<a href="Paper9"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="Paper9.pdf"><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 </ul>
 
